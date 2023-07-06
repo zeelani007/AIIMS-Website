@@ -1,0 +1,29 @@
+
+footer {
+    border-top: 1px solid rgba(218, 132, 132, 0.205);
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, 0.816),rgba(0, 0, 0, 0.889)) ,url(../../assets/gallary/img44.jpeg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.fa {
+    color: red;
+}
+.fa:hover {
+    color: rgb(118, 187, 243);
+}
+
+@media screen and (max-width: 999px) {
+    footer img {
+        width: 90%;
+    }
+  }
+@media screen and (max-width:725px) {
+    footer img {
+        width: auto;
+    }
+}
+  

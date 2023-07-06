@@ -1,0 +1,63 @@
+.ac-block {
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    gap: 2rem;
+    backdrop-filter: blur(10px);
+    color: gray;
+    background-color: rgba(185, 179, 179, 0.103);
+    transition: .7s;
+}
+.ac-block:hover {
+    scale: 1.01;
+    color: rgb(0, 0, 0);
+    background-color: rgba(12, 81, 160, 0.164);
+}
+.block-left {
+    flex: 1;
+    width: 100%;
+}
+.block-left .block-img {
+    width: 100%;
+}
+.block-left .block-img  img{
+    width: 100%;
+}
+.block-right {
+
+    flex: 1;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.block-right h3{
+    position: relative;
+    color: red;
+    font-weight: 900;
+}
+.block-right h3::after{ 
+    width: 50%;
+    content: ' ';
+    position: absolute;
+    z-index: -10;
+    top: 50%;
+    padding: 1px 1px;
+    background-color: rgb(247, 8, 8);
+}
+.read-btn {
+    width: fit-content;
+    padding: .5rem 1.5rem;
+    background-color: rgb(233, 6, 6);
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: 0 10px 5px rgba(99, 97, 97, 0.267);
+}
+.read-btn {
+    background-color: rgb(233, 6, 6);
+    color: aliceblue;
+}
+@media screen and (max-width: 777px) {
+    .ac-block {
+        flex-direction: column !important;
+    }
+  }

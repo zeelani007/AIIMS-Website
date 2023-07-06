@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    top: 0;
+    position: sticky; 
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+.navbar a {
+    font-weight: 600;
+    color: white;
+}
+.navbar a:hover {
+    color: rgb(209, 14, 14);
+}
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px !important;
+    --bs-breakpoint-xxl: 1400px;
+}
+.socialhandel {
+    padding: .5rem;
+    position: fixed; 
+    left: 3%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem; 
+}
+.socialhandel .fa-facebook {
+    padding: .6rem .7rem;
+} 
+.fa-lg {
+    background-color: rgb(214, 18, 18);
+    color: white;
+    padding: .5rem;
+    border-radius: 5px;
+    box-shadow: -20px 5px 8px rgba(128, 128, 128, 0.532);
+}
+nav {
+    z-index: 100;
+}
+.navbar-brand{
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-weight: 900;
+    font-size: 2.5rem !important;
+    text-decoration:4px underline rgb(231, 219, 219);
+    color: rgb(207, 14, 14);
+}
+.navbar-brand img {
+    width: 60px;
+}
+
+.active {
+    color: rgb(224, 13, 13) !important;
+}
+.nav-link {
+    padding-left: .3rem;
+    font-size: 1.2rem !important;
+    font-weight: 400;
+}
+.nav-link:hover {
+    box-shadow: -2px 2px rgba(0, 0, 0, 0.242);
+    border-radius: 10px;
+    text-shadow: 0 0  2px rgba(128, 128, 128, 0.76);
+    color: red;
+    font-weight: 400;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+.dropdown {
+    height: 100%;
+    margin: auto .5rem;
+}
+.dropdown a {
+    font-size: 1.2rem;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 600 !important;
+    color: white;
+}
+.dropdown-menu { 
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 30vw;
+    backdrop-filter: blur(10px);
+    padding: .2rem;
+}
+.dropdown-menu li a{
+    background-color: transparent;
+    margin: .5rem 0;
+    padding-left: .5rem;
+}
+.dropdown-menu li a:hover{
+    background-color: rgba(250, 250, 250, 0.808);
+
+    margin: .5rem 0;
+}
+.dropdown-item {
+    width: 90%;
+    margin: auto;
+}
+.pirexia {
+    justify-content: center;
+    align-items: center;
+}
+.register {
+    background-color: rgba(211, 11, 11, 0.842);
+    border-radius: 6px;
+    padding: .4rem;
+    text-decoration: none;
+    text-shadow: -3px 3px 5px black;
+    box-shadow: -3px 3px 2px rgba(156, 9, 9, 0.582);
+    transition: .5s;
+}
+.register:hover {
+    transition: .5s;
+    color: white !important;
+    text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 2px 5px rgba(7, 111, 180, 0.719);
+}
+
+@media screen and (max-width:1160px) {
+    .navbar .container {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    } 
+    .navbar-nav {
+        margin: auto !important;
+    }
+}
+@media screen and (max-width:989px) {
+    .navbar .container {
+        display: flex;
+        width: 100%;
+        text-align: left;
+        margin: auto;
+    } 
+    .navbar-nav {
+        z-index: 101;
+    }
+    .socialhandel { padding: .5rem;
+        display: none;
+    }
+}

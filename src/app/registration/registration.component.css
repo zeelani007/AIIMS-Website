@@ -1,0 +1,93 @@
+.registration-left{
+    flex: 1;
+}
+.registration-right{
+    flex: 1;  
+}
+.registration-left img{
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    width: auto;
+}
+.reg-img {
+    height: 100%;
+}
+.registration {
+    width: 100%;
+}
+.registration .container {
+    color: white;
+    width: max-content;
+    gap: 2rem;
+    background-color: rgba(134, 127, 230, 0.486);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.registration form {
+    padding: 1rem;
+    gap:1px;
+}
+.modal {
+    
+    width: 100vw;
+    background-image: url(../../assets/party.jpg);
+    background-position: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.modal-dialog { 
+    background-color: transparent;
+}
+.modal-content{
+    background-color: transparent;
+    border: none;
+}
+.modal-body {
+    border-top: none;
+}
+input {
+    height: 1.8rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: -3px 4px 5px rgba(63, 62, 62, 0.527);
+    font-size: 1rem;
+    color: gray;
+    padding: 0 .3rem;
+}
+.Gender input {
+    height: .8rem  ;
+    box-shadow: none;
+}
+.Gender label {
+    margin: 0 .2rem;
+}
+h3 {
+    padding: 0 1rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 10px;
+    -webkit-text-stroke-color: rgba(238, 184, 7, 0.836);
+    font-weight: 900;
+}
+.btn {
+    font-weight: 600;
+    padding: .1rem 1rem;
+    background-color: rgb(30, 8, 224);
+}
+.btn:hover {
+    background-color: rgb(20, 78, 187);
+}
+.modal-header {
+    border-bottom: none;
+}
+.btn-close {
+    background-color: white;
+    position: absolute;
+}
+@media screen and (max-width: 777px) {
+    .registration-left{
+       display: none;
+    }
+  }

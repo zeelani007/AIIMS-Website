@@ -1,0 +1,41 @@
+.why {
+    background:linear-gradient(rgba(240, 240, 240, 0.336), rgba(255, 255, 255, 0.719)) ,url(../../../assets/gallary/img1.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.join-container {
+    justify-content: center;
+}
+h4 {
+    background-color: red;
+    padding: .4rem 0;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+h2 {
+    font-weight: 900;
+    color: white;
+    color: rgb(201, 20, 20);
+    border-bottom: 1px solid rgb(207, 16, 16);
+}
+h6 {
+    color: rgb(41, 39, 39);
+}
+.card-cont {
+    border-radius: 10px;
+    box-shadow: -5px 8px 4px rgba(0, 0, 0, 0.295);
+    scale: .9;
+    width: 350px;
+    padding: .8rem;
+    background-color: antiquewhite;
+    margin: 1rem 0;
+}
+p {
+    text-align: justify;
+    color: rgb(70, 69, 69);
+}
+.img {
+    width: 100%;
+}

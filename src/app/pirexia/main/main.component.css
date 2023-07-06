@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.658), black), url(../../../assets/pirexia/mainbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainholder {
+    width: 100%;
+}
+.mid-contant { 
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+    height: 200px;
+    padding: 2rem;
+    position: relative;
+}
+h1{ 
+    font-size: 8rem !important;
+    font-weight: 900;
+}
+h4{ 
+    font-family: 'Yellowtail', cursive;
+    font-size: 2rem !important;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    color: white;
+}
+h2{ 
+    letter-spacing: 1rem;
+    -webkit-text-fill-color: rgb(255, 230, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(190, 20, 20);
+    font-family: 'Yellowtail', cursive ;
+    font-size: 2.3rem !important;
+    font-weight:600;
+}
+h3 {
+    color: white;
+}
+.brand-top {
+    left: 15%;
+    top: 0;
+    z-index: 4;
+    scale: 1.2;
+    position: absolute;
+    -webkit-text-fill-color: rgba(255, 48, 12, 0.993); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(252, 249, 229);
+    text-shadow: 0 0 5px rgb(130, 248, 248);
+}
+.brand-middle {
+    left: 15%;
+    top: 0%;
+    z-index: 2;
+    scale: 1.1;
+    position: absolute;
+    -webkit-text-fill-color:transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(45, 147, 243);
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out ;
+    animation-delay: 1.2s;
+    animation-iteration-count:infinite ;
+    animation-direction: reverse;
+}
+.brand-bottom {
+    left: 15%;
+    top: 0%;
+    z-index: 0;
+    scale: 1;
+    position: absolute;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(241, 162, 14);
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-delay: 1s;
+    animation-iteration-count:infinite ;
+    animation-direction: reverse;
+}
+
+/* ANIMATION */
+@keyframes changecolor {
+    0%    {opacity: 0;
+            scale: 1.6;}
+    25%   {opacity: 25%;
+            scale: 1.3;}
+    50%   {opacity: 50%;
+             scale: 1.1;}
+    75%   {opacity: 75%;
+            scale: .9;}
+    100%  {opacity: 100%;
+            scale: .4;}
+  }
+  

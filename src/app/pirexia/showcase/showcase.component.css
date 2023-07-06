@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+    font-family: 'Grape Nuts', cursive;
+}
+.showcase {
+    height: fit-content;
+    padding: 3rem;
+    background-color: black;
+}
+.container{ text-align: center;
+    padding: 2rem 0;
+}
+h2 {
+    margin-bottom: 2rem;
+    font-weight: 3rem !important;
+    color: white;
+    letter-spacing: 10px;
+    -webkit-text-stroke-color: gray;
+    -webkit-text-stroke-width: 1px;
+    font-family: 'Pacifico', cursive;
+}
+h3 {
+    font-size: 3rem !important;
+    color: rgba(202, 195, 195, 0.781);
+    font-family: 'Pacifico', cursive;
+}
+p{
+    font-size: 1.5rem !important;
+    color: rgb(255, 145, 0);
+}
+.pg-box {
+    background: url(../../../assets/pirexia/energy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    position: relative;
+}
+
+.dance {
+    left: 10%;
+    top: 0;
+    position: absolute;
+}
+.art {
+    right: 10%;
+    top: 0;
+    position: absolute;
+}
+.snapshot {
+    left: 20%;
+    top: 35%;
+    position: absolute;
+}
+.kavyanjali {
+    right: 20%;
+    top: 35%;
+    position: absolute;
+}
+.laryangia {
+    left: 10%;
+    top: 70%;
+    position: absolute;
+}
+.mousik {
+    right: 10%;
+    top: 70%;
+    position: absolute;
+}

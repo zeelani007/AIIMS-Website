@@ -1,0 +1,10 @@
+<div class="events p-2">
+    <div class="container d-flex flex-column text-center">
+        <h2 class="mt-5 mb-5" >EVENTS</h2>
+        <div class="event-gallary  d-grid gap-3 w-100">
+            <div class="w-250" *ngFor="let image of _albums; let i=index">
+                <img class="w-100" [src]="image.thumb" (click)="open(i)" />
+            </div>
+        </div>
+    </div>
+</div>
